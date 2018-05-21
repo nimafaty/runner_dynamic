@@ -1,0 +1,155 @@
+/* Polices */
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('polices/Roboto-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BoldCondensed';
+    src: url('polices/Roboto-BoldCondensed.ttf') format('truetype');
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #369FC1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+header img {
+    height: 40px;
+    width: 40px;
+    padding: 5px 0 0 5px;
+}
+
+header div:nth-child(1) {
+    height: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+header div:nth-child(2) {
+    width: 60%;
+}
+
+header div:nth-child(2) p {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+}
+
+header div:nth-child(3) {
+    height: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+header div:nth-child(3) img {
+    height: 30px;
+    width: 30px;
+    padding: 10px 20px 0 10px;
+    float: right;
+}
+
+/* Carré activités */
+
+.activities {
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    font-family: 'Roboto-Regular', Arial, sans-serif;
+    color: white;
+    position: relative;
+    font-size: 1.8em;
+}
+
+.activities p:first-child {
+    font-weight: bold;
+    position: absolute;
+    font-size: 1.2em;
+    top: 60px;
+    left: 40px;
+}
+
+
+.circle {
+    background-color: #369FC1;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    position: absolute;
+    top: 30px;
+    left: 75%;
+    text-align: center;
+    line-height: 60px;
+}
+
+#footing {
+    background-image: url("images/dawn-dusk-forest-347134.jpg");
+    background-size: 100% 100%;
+}
+
+#bike {
+    background-image: url("images/bicycle-bike-forest-100582.jpg");
+    background-size: 100% 100%;
+}
+
+#swim {
+    background-image: url("images/action-blue-diver-863988.jpg");
+    background-size: 100% 100%;
+}
+
+#muscle {
+    background-image: url("images/action-athlete-barbell-841130.jpg");
+    background-size: 100% 100%;
+}
+
+#basket {
+    background-image: url("images/action-active-activity-264258.jpg");
+    background-size: 100% 100%;
+}
+
+#tennis {
+    background-image: url("images/ball-court-design-209977.jpg");
+    background-size: 100% 100%;
+}
+
+#badminton {
+    background-image: url("images/blur-close-up-focus-187329.jpg");
+    background-size: 100% 100%;
+}
+
+#art {
+    background-image: url("images/action-adults-athlete-690597.jpg");
+    background-size: 100% 100%;
+}
+#baseball {
+    background-image: url("images/action-athletes-ball-159741.jpg");
+    background-size: 100% 100%;
+}
+#football {
+    background-image: url("images/ball-fun-game-364308.jpg");
+    background-size: 100% 100%;
+}
+#autre {
+    background-image: url("images/exercise-hobby-jog-7432.jpg");
+    background-size: 100% 100%;
+}
+
+a {
+    color: white;
+}
+
+
